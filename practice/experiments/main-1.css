@@ -1,0 +1,129 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--main-bg-color);
+}
+ul {
+    list-style: none;
+}
+/* header */
+/* navigation */
+.link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-font-black);
+}
+.link:focus,
+.link:hover {
+    color: var(--accent-blue);
+}
+
+/* logo */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-black);
+}
+.logo-blue {
+    color: var(--accent-blue);
+}
+.logo-white {
+    color: var(--white);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--accent-black);
+}
+
+.link-contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--link-contact-color);
+}
+
+/* main */
+/* hero */
+.hero {
+    background-color: var(--bg-hero-color);
+    color: var(--white);
+}
+.title-main {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.button {
+    font-family: inherit;
+    background-color: var(--accent-blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+}
+/* наші переваги */
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-font-black);
+}
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--link-contact-color);
+}
+.title-info {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-font-black);
+}
+/* oue team */
+
+.subject-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-font-black);
+}
+.subject-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--link-contact-color);
+}
+
+/* footer */
+.link-footer {
+   color: var(--link-contact-color-footer); 
+}
+.address {
+    color: var(--white);
+}
+.footer {
+    background-color: var(--bg-hero-color);
+}
