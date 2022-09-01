@@ -1,357 +1,372 @@
 <!DOCTYPE html>
 <html lang="uk">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Портфоліо</title>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-		/>
-		<link rel="stylesheet" href="./css/common.css" />
-		<link rel="stylesheet" href="./css/main.css" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфоліо</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-	<body>
-		<header class="border header">
-			<div class="container">
-				<nav class="nav nav-box">
-					<a href="" class="logo">
-						<span class="logo-blue">Web</span>
-						Studio
-					</a>
-					<ul class="list list-nav">
-						<li class="item"><a href="./index.html" class="link">Студія</a></li>
-						<li class="item"><a href="./portfolio.html" class="link page-active">Портфоліо</a></li>
-						<li class="item"><a href="" class="link">Контакти</a></li>
-					</ul>
-				</nav>
-				<ul class="list list-nav list-contact">
-					<li class="item">
-						<a href="mailto:info@devstudio.com" class="link link-contact mailto align-icon">
-							<svg class="icon-contact">
-								<use href="./images/icons.svg#icon-envelope"></use>
-							</svg>
-							info@devstudio.com
-						</a>
-					</li>
-					<li class="item">
-						<a href="tel:+380961111111" class="link link-contact tel align-icon">
-							<svg class="icon-contact">
-								<use href="./images/icons.svg#icon-smartphone"></use>
-							</svg>
-							+38 096 111 11 11
-						</a>
-					</li>
-				</ul>
-			</div>
-		</header>
+  <body>
+    <header class="border header">
+      <div class="container">
+        <nav class="nav nav-box">
+          <a href="" class="logo"> <span class="logo-blue">Web</span>Studio</a>
+          <ul class="list list-nav">
+            <li class="item"><a href="./index.html" class="link">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link page-active">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="list list-nav list-contact">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link link-contact mailto align-icon">
+              <svg class="icon-contact">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link link-contact tel align-icon">
+              <svg class="icon-contact">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
-		<main>
-			<!-- фільтри -->
-			<section class="section projects">
-				<div class="container filter">
-					<h1 class="none">Проєкти</h1>
-					<ul class="list">
-						<li class="item">
-							<button type="button" class="button button-filter button-active">Усі</button>
-						</li>
-						<li class="item">
-							<button type="button" class="button button-filter">Веб-сайти</button>
-						</li>
-						<li class="item">
-							<button type="button" class="button button-filter">Додатки</button>
-						</li>
-						<li class="item"><button type="button" class="button button-filter">Дизайн</button></li>
-						<li class="item">
-							<button type="button" class="button button-filter">Маркетинг</button>
-						</li>
-					</ul>
-				</div>
-				<!-- Projects -->
-				<div class="container projects">
-					<ul class="list project-list">
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/technocrat.jpg"
-											alt="ноутбук на екрані якого відкриті соцмережи"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Технокряк</h2>
-										<p class="desc-project">Веб-сайт</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/poster.jpg"
-											alt="два гравця різних команд - один кидає м'яч інший намагається запобігти цьому"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Постер New Orlean vs Golden Star</h2>
-										<p class="desc-project">Дизайн</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/restourant.jpg"
-											alt="написи на фоні напівпрозорої риби невідомого мені похождення"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Ресторан Seafood</h2>
-										<p class="desc-project">Додаток</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/project-prime.jpg"
-											alt="слухавки накладні бездротові на білому фоні"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Проєкт Prime</h2>
-										<p class="desc-project">Маркетинг</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/project-boxes.jpg"
-											alt="дві естетичні коробочки - біла і світло коричнева"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Проєкт Boxes</h2>
-										<p class="desc-project">Додаток</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/inspiration.jpg"
-											alt="монітор на якому зображено щось незрузуміле та гасло - натхнення не знає меж"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Inspiration has no Borders</h2>
-										<p class="desc-project">Веб-сайт</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/limited-edition.jpg"
-											alt="розгорнутий журнал, швидше за все - жіночий"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Видання Limited Edition</h2>
-										<p class="desc-project">Дизайн</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/project-lab.jpg"
-											alt="бірка крупним планом з написом і логотипом компанії"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Проєкт LAB</h2>
-										<p class="desc-project">Маркетинг</p>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="item">
-							<a href="" class="link-portfolio">
-								<div class="project">
-									<div class="thumb">
-										<img
-											src="./images/growing-business.jpg"
-											alt="хлопак обома руками друкує щось на ноутбуці, коли на ньому відкрита головна сторінка сайту"
-											width="370"
-											height="294"
-										/>
-										<div class="thumb-item">
-											<p class="hover-text">
-												Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-												відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-											</p>
-										</div>
-									</div>
-									<div class="item">
-										<h2 class="title-project">Growing Business</h2>
-										<p class="desc-project">Додаток</p>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-		</main>
+    <main>
+      <!-- фільтри -->
+      <section class="section projects">
+        <div class="container filter">
+          <h1 class="none">Проєкти</h1>
+          <ul class="list">
+            <li class="item">
+              <button type="button" class="button button-filter button-active">Усі</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button button-filter">Веб-сайти</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button button-filter">Додатки</button>
+            </li>
+            <li class="item"><button type="button" class="button button-filter">Дизайн</button></li>
+            <li class="item">
+              <button type="button" class="button button-filter">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+        <!-- Projects -->
+        <div class="container projects">
+          <ul class="list project-list">
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/technocrat.jpg"
+                      alt="ноутбук на екрані якого відкриті соцмережи"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Технокряк</h2>
+                    <p class="desc-project">Веб-сайт</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/poster.jpg"
+                      alt="два гравця різних команд - один кидає м'яч інший намагається запобігти цьому"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Постер New Orlean vs Golden Star</h2>
+                    <p class="desc-project">Дизайн</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/restourant.jpg"
+                      alt="написи на фоні напівпрозорої риби невідомого мені похождення"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Ресторан Seafood</h2>
+                    <p class="desc-project">Додаток</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/project-prime.jpg"
+                      alt="слухавки накладні бездротові на білому фоні"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Проєкт Prime</h2>
+                    <p class="desc-project">Маркетинг</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/project-boxes.jpg"
+                      alt="дві естетичні коробочки - біла і світло коричнева"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Проєкт Boxes</h2>
+                    <p class="desc-project">Додаток</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/inspiration.jpg"
+                      alt="монітор на якому зображено щось незрузуміле та гасло - натхнення не знає меж"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Inspiration has no Borders</h2>
+                    <p class="desc-project">Веб-сайт</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/limited-edition.jpg"
+                      alt="розгорнутий журнал, швидше за все - жіночий"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Видання Limited Edition</h2>
+                    <p class="desc-project">Дизайн</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/project-lab.jpg"
+                      alt="бірка крупним планом з написом і логотипом компанії"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Проєкт LAB</h2>
+                    <p class="desc-project">Маркетинг</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link-portfolio">
+                <div class="project">
+                  <div class="thumb">
+                    <img
+                      src="./images/growing-business.jpg"
+                      alt="хлопак обома руками друкує щось на ноутбуці, коли на ньому відкрита головна сторінка сайту"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="thumb-item">
+                      <p class="hover-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
+                        компанію чи приватну особу.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <h2 class="title-project">Growing Business</h2>
+                    <p class="desc-project">Додаток</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-		<!--footer-->
-		<footer class="footer section">
-			<div class="container">
-				<div class="container-foot">
-					<a href="" class="logo logo-white">
-						<span class="logo-blue">Web</span>
-						Studio
-					</a>
-					<address>
-						<p class="address item">м. Київ, пр-т Лесі Українки, 26</p>
-						<ul class="list item">
-							<li class="item">
-								<a href="mailto:info@devstudio.com" class="link link-footer">info@devstudio.com</a>
-							</li>
-							<li class="item">
-								<a href="tel:+380961111111" class="link link-footer">+38 096 111 11 11</a>
-							</li>
-						</ul>
-					</address>
-				</div>
-				<div class="container-foot socials">
-					<h2 class="title-methods">Приєднуйтесь</h2>
-					<ul class="list">
-						<li class="item">
-							<a class="link-socials" href="">
-								<svg class="icon-socials">
-									<use href="./images/icons.svg#icon-instagram"></use>
-								</svg>
-							</a>
-						</li>
-						<li class="item">
-							<a class="link-socials" href="">
-								<svg class="icon-socials">
-									<use href="./images/icons.svg#icon-twitter"></use>
-								</svg>
-							</a>
-						</li>
-						<li class="item">
-							<a class="link-socials" href="">
-								<svg class="icon-socials">
-									<use href="./images/icons.svg#icon-facebook"></use>
-								</svg>
-							</a>
-						</li>
-						<li class="item">
-							<a class="link-socials" href="">
-								<svg class="icon-socials">
-									<use href="./images/icons.svg#icon-linkedin"></use>
-								</svg>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-		<script src="./js/modal.js"></script>
-	</body>
+    <!--footer-->
+    <footer class="footer section">
+      <div class="container">
+        <div class="container-foot">
+          <a href="" class="logo logo-white"> <span class="logo-blue">Web</span>Studio</a>
+          <address>
+            <p class="address item">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="list item">
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="link link-footer">info@devstudio.com</a>
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="link link-footer">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="container-foot socials">
+          <b class="title-methods">Приєднуйтесь</b>
+          <ul class="list">
+            <li class="item">
+              <a class="link-socials" href="">
+                <svg class="icon-socials">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link-socials" href="">
+                <svg class="icon-socials">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link-socials" href="">
+                <svg class="icon-socials">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link-socials" href="">
+                <svg class="icon-socials">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="form-mail">
+          <b class="title-methods">Підпишіться на розсилку</b>
+          <div class="input item">
+            <input type="email" class="mail" placeholder="E-mail" />
+            <button type="submit" class="button">
+              Підписатися
+              <svg class="tg-icon">
+                <use href="./images/symbol-defs.svg#icon-tg"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
