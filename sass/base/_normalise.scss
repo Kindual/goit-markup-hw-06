@@ -1,14 +1,13 @@
 body {
-    background-color: var(--main-bg-color);
+    box-sizing: border-box;
 
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.03em;
 
+    background-color: var(--main-bg-color);
     color: var(--main-font-color);
-
-    box-sizing: border-box;
 }
 
 *,
